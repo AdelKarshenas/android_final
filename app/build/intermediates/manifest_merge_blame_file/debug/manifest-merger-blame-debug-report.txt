@@ -1,0 +1,123 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.tcp_ip"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="19"
+8-->C:\Users\Telia\Desktop\behrad projet\Android\right version\BPQView\alpha-V2-1791400\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->C:\Users\Telia\Desktop\behrad projet\Android\right version\BPQView\alpha-V2-1791400\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\Users\Telia\Desktop\behrad projet\Android\right version\BPQView\alpha-V2-1791400\app\src\main\AndroidManifest.xml:5:5-67
+11-->C:\Users\Telia\Desktop\behrad projet\Android\right version\BPQView\alpha-V2-1791400\app\src\main\AndroidManifest.xml:5:22-64
+12    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+12-->C:\Users\Telia\Desktop\behrad projet\Android\right version\BPQView\alpha-V2-1791400\app\src\main\AndroidManifest.xml:6:5-76
+12-->C:\Users\Telia\Desktop\behrad projet\Android\right version\BPQView\alpha-V2-1791400\app\src\main\AndroidManifest.xml:6:22-73
+13    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+13-->C:\Users\Telia\Desktop\behrad projet\Android\right version\BPQView\alpha-V2-1791400\app\src\main\AndroidManifest.xml:7:5-79
+13-->C:\Users\Telia\Desktop\behrad projet\Android\right version\BPQView\alpha-V2-1791400\app\src\main\AndroidManifest.xml:7:22-76
+14    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+14-->C:\Users\Telia\Desktop\behrad projet\Android\right version\BPQView\alpha-V2-1791400\app\src\main\AndroidManifest.xml:8:5-96
+14-->C:\Users\Telia\Desktop\behrad projet\Android\right version\BPQView\alpha-V2-1791400\app\src\main\AndroidManifest.xml:8:22-77
+15    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+15-->C:\Users\Telia\Desktop\behrad projet\Android\right version\BPQView\alpha-V2-1791400\app\src\main\AndroidManifest.xml:9:5-97
+15-->C:\Users\Telia\Desktop\behrad projet\Android\right version\BPQView\alpha-V2-1791400\app\src\main\AndroidManifest.xml:9:22-78
+16
+17    <application
+17-->C:\Users\Telia\Desktop\behrad projet\Android\right version\BPQView\alpha-V2-1791400\app\src\main\AndroidManifest.xml:11:5-54:19
+18        android:allowBackup="true"
+18-->C:\Users\Telia\Desktop\behrad projet\Android\right version\BPQView\alpha-V2-1791400\app\src\main\AndroidManifest.xml:12:9-35
+19        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+19-->[androidx.core:core:1.3.2] C:\Users\Telia\.gradle\caches\transforms-2\files-2.1\8dec601f45437c957e89ca33d688e76a\core-1.3.2\AndroidManifest.xml:24:18-86
+20        android:debuggable="true"
+21        android:icon="@drawable/applogo"
+21-->C:\Users\Telia\Desktop\behrad projet\Android\right version\BPQView\alpha-V2-1791400\app\src\main\AndroidManifest.xml:13:9-41
+22        android:label="BPQView"
+22-->C:\Users\Telia\Desktop\behrad projet\Android\right version\BPQView\alpha-V2-1791400\app\src\main\AndroidManifest.xml:14:9-32
+23        android:roundIcon="@mipmap/ic_launcher_round"
+23-->C:\Users\Telia\Desktop\behrad projet\Android\right version\BPQView\alpha-V2-1791400\app\src\main\AndroidManifest.xml:15:9-54
+24        android:supportsRtl="true"
+24-->C:\Users\Telia\Desktop\behrad projet\Android\right version\BPQView\alpha-V2-1791400\app\src\main\AndroidManifest.xml:16:9-35
+25        android:testOnly="true"
+26        android:theme="@style/Theme.Tcpip" >
+26-->C:\Users\Telia\Desktop\behrad projet\Android\right version\BPQView\alpha-V2-1791400\app\src\main\AndroidManifest.xml:17:9-43
+27        <activity
+27-->C:\Users\Telia\Desktop\behrad projet\Android\right version\BPQView\alpha-V2-1791400\app\src\main\AndroidManifest.xml:18:9-22:62
+28            android:name="com.example.tcp_ip.abousus"
+28-->C:\Users\Telia\Desktop\behrad projet\Android\right version\BPQView\alpha-V2-1791400\app\src\main\AndroidManifest.xml:19:13-36
+29            android:label="@string/title_activity_abousus"
+29-->C:\Users\Telia\Desktop\behrad projet\Android\right version\BPQView\alpha-V2-1791400\app\src\main\AndroidManifest.xml:20:13-59
+30            android:parentActivityName="com.example.tcp_ip.Menu"
+30-->C:\Users\Telia\Desktop\behrad projet\Android\right version\BPQView\alpha-V2-1791400\app\src\main\AndroidManifest.xml:21:13-47
+31            android:theme="@style/Theme.Tcpip.NoActionBar" />
+31-->C:\Users\Telia\Desktop\behrad projet\Android\right version\BPQView\alpha-V2-1791400\app\src\main\AndroidManifest.xml:22:13-59
+32        <activity
+32-->C:\Users\Telia\Desktop\behrad projet\Android\right version\BPQView\alpha-V2-1791400\app\src\main\AndroidManifest.xml:23:9-25:50
+33            android:name="com.example.tcp_ip.Logging"
+33-->C:\Users\Telia\Desktop\behrad projet\Android\right version\BPQView\alpha-V2-1791400\app\src\main\AndroidManifest.xml:24:13-36
+34            android:parentActivityName="com.example.tcp_ip.Menu" />
+34-->C:\Users\Telia\Desktop\behrad projet\Android\right version\BPQView\alpha-V2-1791400\app\src\main\AndroidManifest.xml:25:13-47
+35        <activity
+35-->C:\Users\Telia\Desktop\behrad projet\Android\right version\BPQView\alpha-V2-1791400\app\src\main\AndroidManifest.xml:26:9-28:50
+36            android:name="com.example.tcp_ip.Device_Info"
+36-->C:\Users\Telia\Desktop\behrad projet\Android\right version\BPQView\alpha-V2-1791400\app\src\main\AndroidManifest.xml:27:13-40
+37            android:parentActivityName="com.example.tcp_ip.Menu" />
+37-->C:\Users\Telia\Desktop\behrad projet\Android\right version\BPQView\alpha-V2-1791400\app\src\main\AndroidManifest.xml:28:13-47
+38        <activity
+38-->C:\Users\Telia\Desktop\behrad projet\Android\right version\BPQView\alpha-V2-1791400\app\src\main\AndroidManifest.xml:29:9-32:50
+39            android:name="com.example.tcp_ip.settings"
+39-->C:\Users\Telia\Desktop\behrad projet\Android\right version\BPQView\alpha-V2-1791400\app\src\main\AndroidManifest.xml:30:13-37
+40            android:parentActivityName="com.example.tcp_ip.Menu"
+40-->C:\Users\Telia\Desktop\behrad projet\Android\right version\BPQView\alpha-V2-1791400\app\src\main\AndroidManifest.xml:32:13-47
+41            android:screenOrientation="portrait" />
+41-->C:\Users\Telia\Desktop\behrad projet\Android\right version\BPQView\alpha-V2-1791400\app\src\main\AndroidManifest.xml:31:13-49
+42        <activity android:name="com.example.tcp_ip.testtest" />
+42-->C:\Users\Telia\Desktop\behrad projet\Android\right version\BPQView\alpha-V2-1791400\app\src\main\AndroidManifest.xml:33:9-46
+42-->C:\Users\Telia\Desktop\behrad projet\Android\right version\BPQView\alpha-V2-1791400\app\src\main\AndroidManifest.xml:33:19-43
+43        <activity
+43-->C:\Users\Telia\Desktop\behrad projet\Android\right version\BPQView\alpha-V2-1791400\app\src\main\AndroidManifest.xml:34:9-37:50
+44            android:name="com.example.tcp_ip.chart"
+44-->C:\Users\Telia\Desktop\behrad projet\Android\right version\BPQView\alpha-V2-1791400\app\src\main\AndroidManifest.xml:35:13-34
+45            android:parentActivityName="com.example.tcp_ip.Menu"
+45-->C:\Users\Telia\Desktop\behrad projet\Android\right version\BPQView\alpha-V2-1791400\app\src\main\AndroidManifest.xml:37:13-47
+46            android:screenOrientation="portrait" />
+46-->C:\Users\Telia\Desktop\behrad projet\Android\right version\BPQView\alpha-V2-1791400\app\src\main\AndroidManifest.xml:36:13-49
+47        <activity android:name="com.example.tcp_ip.Menu" />
+47-->C:\Users\Telia\Desktop\behrad projet\Android\right version\BPQView\alpha-V2-1791400\app\src\main\AndroidManifest.xml:38:9-42
+47-->C:\Users\Telia\Desktop\behrad projet\Android\right version\BPQView\alpha-V2-1791400\app\src\main\AndroidManifest.xml:38:19-39
+48        <activity
+48-->C:\Users\Telia\Desktop\behrad projet\Android\right version\BPQView\alpha-V2-1791400\app\src\main\AndroidManifest.xml:39:9-42:50
+49            android:name="com.example.tcp_ip.Data"
+49-->C:\Users\Telia\Desktop\behrad projet\Android\right version\BPQView\alpha-V2-1791400\app\src\main\AndroidManifest.xml:40:13-33
+50            android:parentActivityName="com.example.tcp_ip.Menu"
+50-->C:\Users\Telia\Desktop\behrad projet\Android\right version\BPQView\alpha-V2-1791400\app\src\main\AndroidManifest.xml:42:13-47
+51            android:screenOrientation="portrait" />
+51-->C:\Users\Telia\Desktop\behrad projet\Android\right version\BPQView\alpha-V2-1791400\app\src\main\AndroidManifest.xml:41:13-49
+52        <activity
+52-->C:\Users\Telia\Desktop\behrad projet\Android\right version\BPQView\alpha-V2-1791400\app\src\main\AndroidManifest.xml:43:9-52:20
+53            android:name="com.example.tcp_ip.SplashScreen"
+53-->C:\Users\Telia\Desktop\behrad projet\Android\right version\BPQView\alpha-V2-1791400\app\src\main\AndroidManifest.xml:44:13-41
+54            android:screenOrientation="portrait"
+54-->C:\Users\Telia\Desktop\behrad projet\Android\right version\BPQView\alpha-V2-1791400\app\src\main\AndroidManifest.xml:45:13-49
+55            android:theme="@style/SplashscreenTheme" >
+55-->C:\Users\Telia\Desktop\behrad projet\Android\right version\BPQView\alpha-V2-1791400\app\src\main\AndroidManifest.xml:46:13-53
+56            <intent-filter>
+56-->C:\Users\Telia\Desktop\behrad projet\Android\right version\BPQView\alpha-V2-1791400\app\src\main\AndroidManifest.xml:47:13-51:29
+57                <action android:name="android.intent.action.MAIN" />
+57-->C:\Users\Telia\Desktop\behrad projet\Android\right version\BPQView\alpha-V2-1791400\app\src\main\AndroidManifest.xml:48:17-69
+57-->C:\Users\Telia\Desktop\behrad projet\Android\right version\BPQView\alpha-V2-1791400\app\src\main\AndroidManifest.xml:48:25-66
+58
+59                <category android:name="android.intent.category.LAUNCHER" />
+59-->C:\Users\Telia\Desktop\behrad projet\Android\right version\BPQView\alpha-V2-1791400\app\src\main\AndroidManifest.xml:50:17-77
+59-->C:\Users\Telia\Desktop\behrad projet\Android\right version\BPQView\alpha-V2-1791400\app\src\main\AndroidManifest.xml:50:27-74
+60            </intent-filter>
+61        </activity>
+62        <activity android:name="com.example.tcp_ip.MainActivity" />
+62-->C:\Users\Telia\Desktop\behrad projet\Android\right version\BPQView\alpha-V2-1791400\app\src\main\AndroidManifest.xml:53:9-50
+62-->C:\Users\Telia\Desktop\behrad projet\Android\right version\BPQView\alpha-V2-1791400\app\src\main\AndroidManifest.xml:53:19-47
+63    </application>
+64
+65</manifest>

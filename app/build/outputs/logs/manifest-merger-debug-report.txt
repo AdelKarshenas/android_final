@@ -1,0 +1,330 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\Telia\Desktop\behrad projet\Android\right version\BPQView\alpha-V2-1791400\app\src\main\AndroidManifest.xml:2:1-56:12
+INJECTED from C:\Users\Telia\Desktop\behrad projet\Android\right version\BPQView\alpha-V2-1791400\app\src\main\AndroidManifest.xml:2:1-56:12
+INJECTED from C:\Users\Telia\Desktop\behrad projet\Android\right version\BPQView\alpha-V2-1791400\app\src\main\AndroidManifest.xml:2:1-56:12
+INJECTED from C:\Users\Telia\Desktop\behrad projet\Android\right version\BPQView\alpha-V2-1791400\app\src\main\AndroidManifest.xml:2:1-56:12
+MERGED from [androidx.navigation:navigation-fragment-ktx:2.3.5] C:\Users\Telia\.gradle\caches\transforms-2\files-2.1\5c361230693d2259050c4dc6007d9970\navigation-fragment-ktx-2.3.5\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment-ktx:1.2.4] C:\Users\Telia\.gradle\caches\transforms-2\files-2.1\c1018a550a9c2363e68d6dfd7f98aaf9\jetified-fragment-ktx-1.2.4\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-ui-ktx:2.3.5] C:\Users\Telia\.gradle\caches\transforms-2\files-2.1\5bc1837060b7b7de9af9b24976e22652\navigation-ui-ktx-2.3.5\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.3.5] C:\Users\Telia\.gradle\caches\transforms-2\files-2.1\d2b0242b99c8045f949b98798d2e8316\navigation-runtime-ktx-2.3.5\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-common-ktx:2.3.5] C:\Users\Telia\.gradle\caches\transforms-2\files-2.1\f1d69b6e639b45316d500c4b2df83023\navigation-common-ktx-2.3.5\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity-ktx:1.1.0] C:\Users\Telia\.gradle\caches\transforms-2\files-2.1\30c69086bf7de9593fc5ea0fb80e0a15\jetified-activity-ktx-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core-ktx:1.3.2] C:\Users\Telia\.gradle\caches\transforms-2\files-2.1\70918615fcb9322e11f0e60418e38dd5\jetified-core-ktx-1.3.2\AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.2.0] C:\Users\Telia\.gradle\caches\transforms-2\files-2.1\0e888426572a89697f671489623c0f40\jetified-lifecycle-viewmodel-ktx-2.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.2.0] C:\Users\Telia\.gradle\caches\transforms-2\files-2.1\4f4cb03f7e3773c877ebb94679693d71\jetified-lifecycle-runtime-ktx-2.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.2.0] C:\Users\Telia\.gradle\caches\transforms-2\files-2.1\120aac42664f7802e75cc1db133ccf49\jetified-lifecycle-livedata-core-ktx-2.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-ui:2.3.5] C:\Users\Telia\.gradle\caches\transforms-2\files-2.1\d56613c7d2b6e4f930ee23250b0f12b7\navigation-ui-2.3.5\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.material:material:1.2.1] C:\Users\Telia\.gradle\caches\transforms-2\files-2.1\7c7475baa7a188b42262bfe047bfac4b\material-1.2.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\Telia\.gradle\caches\transforms-2\files-2.1\86c8362e45c9d88dbf1cb30a1c8227f3\constraintlayout-2.0.4\AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.appcompat:appcompat:1.2.0] C:\Users\Telia\.gradle\caches\transforms-2\files-2.1\7bf486935e2cf6581998971bedac1c6d\appcompat-1.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.github.PhilJay:MPAndroidChart:v3.1.0] C:\Users\Telia\.gradle\caches\transforms-2\files-2.1\d3e8c2ce81e73a42e5fd53ceb8651dfc\jetified-MPAndroidChart-v3.1.0\AndroidManifest.xml:2:1-20:12
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\Telia\.gradle\caches\transforms-2\files-2.1\816122283c32e5f1b9130e236274e4b4\legacy-support-v4-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [pl.droidsonroids.gif:android-gif-drawable:1.2.22] C:\Users\Telia\.gradle\caches\transforms-2\files-2.1\12d89a93d8146462325aeb47861c4a1c\jetified-android-gif-drawable-1.2.22\AndroidManifest.xml:2:1-9:12
+MERGED from [com.xwray:groupie:2.1.0] C:\Users\Telia\.gradle\caches\transforms-2\files-2.1\a5281544e63e3a6539b76f4e650d828c\jetified-groupie-2.1.0\AndroidManifest.xml:2:1-14:12
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Telia\.gradle\caches\transforms-2\files-2.1\930a89c8dc62c8ad9fb5309b2bcf54e5\cardview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\Telia\.gradle\caches\transforms-2\files-2.1\ac5ef0dd2ea9e9fc0d37caec0b41685b\legacy-support-core-ui-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\Telia\.gradle\caches\transforms-2\files-2.1\e1b1b375e052e85221b7a4b3c8b12e6e\coordinatorlayout-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] C:\Users\Telia\.gradle\caches\transforms-2\files-2.1\6374ca097572e95b746a19ae66f229c4\jetified-appcompat-resources-1.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\Telia\.gradle\caches\transforms-2\files-2.1\c5b3e2466260255aa521604206c50ae9\vectordrawable-animated-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\Telia\.gradle\caches\transforms-2\files-2.1\e6247819d72e13f42304acf6ba3312ca\vectordrawable-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\Telia\.gradle\caches\transforms-2\files-2.1\0e2daabeef5a315a3ffbd8362da66a88\jetified-viewpager2-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.media:media:1.0.0] C:\Users\Telia\.gradle\caches\transforms-2\files-2.1\c7fd1948ffafcc65fb3b23f9786ab7ff\media-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\Telia\.gradle\caches\transforms-2\files-2.1\a3056e9d375dcf132b75b4d6462a4600\legacy-support-core-utils-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\Telia\.gradle\caches\transforms-2\files-2.1\8df487e4928c56bf5f81c1495ece00af\recyclerview-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-fragment:2.3.5] C:\Users\Telia\.gradle\caches\transforms-2\files-2.1\cea02561e364aaebb18202d016d7a2aa\navigation-fragment-2.3.5\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment:1.2.4] C:\Users\Telia\.gradle\caches\transforms-2\files-2.1\d9ca1dd3aba92a5c7f3f44ae5c651019\fragment-1.2.4\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Telia\.gradle\caches\transforms-2\files-2.1\5737a15cf189586314c8f0c0018abbd8\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\Telia\.gradle\caches\transforms-2\files-2.1\8d6fe3339db0bf783d2a6313c75c93d1\loader-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\Telia\.gradle\caches\transforms-2\files-2.1\7a8fd11edffcd6526b2c872cad796d0b\slidingpanelayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\Telia\.gradle\caches\transforms-2\files-2.1\62941f2c365a0488c4b15f31832fb09a\swiperefreshlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\Telia\.gradle\caches\transforms-2\files-2.1\80a50724c7c8bf5953775bae4621eba4\asynclayoutinflater-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\Telia\.gradle\caches\transforms-2\files-2.1\afe1018b4c48a4ce324e7fa4d2cbf0be\drawerlayout-1.1.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\Telia\.gradle\caches\transforms-2\files-2.1\cbc05ec9b9fe0a52443abb26e4eb281b\customview-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.transition:transition:1.3.0] C:\Users\Telia\.gradle\caches\transforms-2\files-2.1\f5456b659547fd1310ed41817acdc279\transition-1.3.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-runtime:2.3.5] C:\Users\Telia\.gradle\caches\transforms-2\files-2.1\9daa06cc9abd79d51009c2bc4094aab7\navigation-runtime-2.3.5\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.1.0] C:\Users\Telia\.gradle\caches\transforms-2\files-2.1\88aac62338dac801d5a314ee407fa6ed\jetified-activity-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-common:2.3.5] C:\Users\Telia\.gradle\caches\transforms-2\files-2.1\ae747dd85daaf79af4930f7b6c33d73d\navigation-common-2.3.5\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core:1.3.2] C:\Users\Telia\.gradle\caches\transforms-2\files-2.1\8dec601f45437c957e89ca33d688e76a\core-1.3.2\AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Telia\.gradle\caches\transforms-2\files-2.1\62a91f25b348591cc15acc99c60df661\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\Telia\.gradle\caches\transforms-2\files-2.1\34fb924ef230ace9a77101a5f0eb4e8d\versionedparcelable-1.1.0\AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Telia\.gradle\caches\transforms-2\files-2.1\b237374c28e05de58e882772b3231f1d\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Telia\.gradle\caches\transforms-2\files-2.1\9e8113cd675119259d6b932a6fd69295\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] C:\Users\Telia\.gradle\caches\transforms-2\files-2.1\095bcf875e623e60b12deeb2f0570b5f\print-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Telia\.gradle\caches\transforms-2\files-2.1\a01e2fff2aadb18c0a70f529ad1dd9cc\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.2.0] C:\Users\Telia\.gradle\caches\transforms-2\files-2.1\a0378a36b627d40863216b67893df6c8\jetified-lifecycle-viewmodel-savedstate-2.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0] C:\Users\Telia\.gradle\caches\transforms-2\files-2.1\eebf391fca65251329e05262594bcbb5\lifecycle-viewmodel-2.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\Telia\.gradle\caches\transforms-2\files-2.1\729b94392575afa626f22b9098f2b277\jetified-savedstate-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] C:\Users\Telia\.gradle\caches\transforms-2\files-2.1\9acff1b0f8ae55692334b7d6b76f0380\lifecycle-runtime-2.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\Telia\.gradle\caches\transforms-2\files-2.1\1e32f77205697c4a379284c2ca910e65\lifecycle-livedata-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] C:\Users\Telia\.gradle\caches\transforms-2\files-2.1\f7cee7dd8b7e70d7b7ebdc5833f64703\lifecycle-livedata-core-2.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\Telia\.gradle\caches\transforms-2\files-2.1\ee163a923db7e7893a440ece432ec242\core-runtime-2.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.annotation:annotation-experimental:1.0.0] C:\Users\Telia\.gradle\caches\transforms-2\files-2.1\e2fdb1510421be07eea1c8dddb6605bc\jetified-annotation-experimental-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [pl.droidsonroids.relinker:relinker:1.4.1] C:\Users\Telia\.gradle\caches\transforms-2\files-2.1\d43b13589eb5e4f34d3ac37ebc09c308\jetified-relinker-1.4.1\AndroidManifest.xml:2:1-7:12
+INJECTED from C:\Users\Telia\Desktop\behrad projet\Android\right version\BPQView\alpha-V2-1791400\app\src\main\AndroidManifest.xml:2:1-56:12
+INJECTED from C:\Users\Telia\Desktop\behrad projet\Android\right version\BPQView\alpha-V2-1791400\app\src\main\AndroidManifest.xml:2:1-56:12
+INJECTED from C:\Users\Telia\Desktop\behrad projet\Android\right version\BPQView\alpha-V2-1791400\app\src\main\AndroidManifest.xml:2:1-56:12
+	package
+		ADDED from C:\Users\Telia\Desktop\behrad projet\Android\right version\BPQView\alpha-V2-1791400\app\src\main\AndroidManifest.xml:3:5-33
+		INJECTED from C:\Users\Telia\Desktop\behrad projet\Android\right version\BPQView\alpha-V2-1791400\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Telia\Desktop\behrad projet\Android\right version\BPQView\alpha-V2-1791400\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\Telia\Desktop\behrad projet\Android\right version\BPQView\alpha-V2-1791400\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Telia\Desktop\behrad projet\Android\right version\BPQView\alpha-V2-1791400\app\src\main\AndroidManifest.xml:2:1-56:12
+		INJECTED from C:\Users\Telia\Desktop\behrad projet\Android\right version\BPQView\alpha-V2-1791400\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from C:\Users\Telia\Desktop\behrad projet\Android\right version\BPQView\alpha-V2-1791400\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Telia\Desktop\behrad projet\Android\right version\BPQView\alpha-V2-1791400\app\src\main\AndroidManifest.xml:2:1-56:12
+		INJECTED from C:\Users\Telia\Desktop\behrad projet\Android\right version\BPQView\alpha-V2-1791400\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\Telia\Desktop\behrad projet\Android\right version\BPQView\alpha-V2-1791400\app\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\Telia\Desktop\behrad projet\Android\right version\BPQView\alpha-V2-1791400\app\src\main\AndroidManifest.xml:5:5-67
+	android:name
+		ADDED from C:\Users\Telia\Desktop\behrad projet\Android\right version\BPQView\alpha-V2-1791400\app\src\main\AndroidManifest.xml:5:22-64
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from C:\Users\Telia\Desktop\behrad projet\Android\right version\BPQView\alpha-V2-1791400\app\src\main\AndroidManifest.xml:6:5-76
+	android:name
+		ADDED from C:\Users\Telia\Desktop\behrad projet\Android\right version\BPQView\alpha-V2-1791400\app\src\main\AndroidManifest.xml:6:22-73
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from C:\Users\Telia\Desktop\behrad projet\Android\right version\BPQView\alpha-V2-1791400\app\src\main\AndroidManifest.xml:7:5-79
+	android:name
+		ADDED from C:\Users\Telia\Desktop\behrad projet\Android\right version\BPQView\alpha-V2-1791400\app\src\main\AndroidManifest.xml:7:22-76
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from C:\Users\Telia\Desktop\behrad projet\Android\right version\BPQView\alpha-V2-1791400\app\src\main\AndroidManifest.xml:8:5-96
+	android:name
+		ADDED from C:\Users\Telia\Desktop\behrad projet\Android\right version\BPQView\alpha-V2-1791400\app\src\main\AndroidManifest.xml:8:22-77
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from C:\Users\Telia\Desktop\behrad projet\Android\right version\BPQView\alpha-V2-1791400\app\src\main\AndroidManifest.xml:9:5-97
+	android:name
+		ADDED from C:\Users\Telia\Desktop\behrad projet\Android\right version\BPQView\alpha-V2-1791400\app\src\main\AndroidManifest.xml:9:22-78
+application
+ADDED from C:\Users\Telia\Desktop\behrad projet\Android\right version\BPQView\alpha-V2-1791400\app\src\main\AndroidManifest.xml:11:5-54:19
+MERGED from [com.google.android.material:material:1.2.1] C:\Users\Telia\.gradle\caches\transforms-2\files-2.1\7c7475baa7a188b42262bfe047bfac4b\material-1.2.1\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.2.1] C:\Users\Telia\.gradle\caches\transforms-2\files-2.1\7c7475baa7a188b42262bfe047bfac4b\material-1.2.1\AndroidManifest.xml:22:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\Telia\.gradle\caches\transforms-2\files-2.1\86c8362e45c9d88dbf1cb30a1c8227f3\constraintlayout-2.0.4\AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\Telia\.gradle\caches\transforms-2\files-2.1\86c8362e45c9d88dbf1cb30a1c8227f3\constraintlayout-2.0.4\AndroidManifest.xml:9:5-20
+MERGED from [com.xwray:groupie:2.1.0] C:\Users\Telia\.gradle\caches\transforms-2\files-2.1\a5281544e63e3a6539b76f4e650d828c\jetified-groupie-2.1.0\AndroidManifest.xml:11:5-12:19
+MERGED from [com.xwray:groupie:2.1.0] C:\Users\Telia\.gradle\caches\transforms-2\files-2.1\a5281544e63e3a6539b76f4e650d828c\jetified-groupie-2.1.0\AndroidManifest.xml:11:5-12:19
+MERGED from [androidx.core:core:1.3.2] C:\Users\Telia\.gradle\caches\transforms-2\files-2.1\8dec601f45437c957e89ca33d688e76a\core-1.3.2\AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.3.2] C:\Users\Telia\.gradle\caches\transforms-2\files-2.1\8dec601f45437c957e89ca33d688e76a\core-1.3.2\AndroidManifest.xml:24:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\Telia\.gradle\caches\transforms-2\files-2.1\34fb924ef230ace9a77101a5f0eb4e8d\versionedparcelable-1.1.0\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\Telia\.gradle\caches\transforms-2\files-2.1\34fb924ef230ace9a77101a5f0eb4e8d\versionedparcelable-1.1.0\AndroidManifest.xml:24:5-25:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.3.2] C:\Users\Telia\.gradle\caches\transforms-2\files-2.1\8dec601f45437c957e89ca33d688e76a\core-1.3.2\AndroidManifest.xml:24:18-86
+	android:supportsRtl
+		ADDED from C:\Users\Telia\Desktop\behrad projet\Android\right version\BPQView\alpha-V2-1791400\app\src\main\AndroidManifest.xml:16:9-35
+	android:label
+		ADDED from C:\Users\Telia\Desktop\behrad projet\Android\right version\BPQView\alpha-V2-1791400\app\src\main\AndroidManifest.xml:14:9-32
+	android:roundIcon
+		ADDED from C:\Users\Telia\Desktop\behrad projet\Android\right version\BPQView\alpha-V2-1791400\app\src\main\AndroidManifest.xml:15:9-54
+	android:icon
+		ADDED from C:\Users\Telia\Desktop\behrad projet\Android\right version\BPQView\alpha-V2-1791400\app\src\main\AndroidManifest.xml:13:9-41
+	android:allowBackup
+		ADDED from C:\Users\Telia\Desktop\behrad projet\Android\right version\BPQView\alpha-V2-1791400\app\src\main\AndroidManifest.xml:12:9-35
+	android:theme
+		ADDED from C:\Users\Telia\Desktop\behrad projet\Android\right version\BPQView\alpha-V2-1791400\app\src\main\AndroidManifest.xml:17:9-43
+activity#com.example.tcp_ip.abousus
+ADDED from C:\Users\Telia\Desktop\behrad projet\Android\right version\BPQView\alpha-V2-1791400\app\src\main\AndroidManifest.xml:18:9-22:62
+	android:parentActivityName
+		ADDED from C:\Users\Telia\Desktop\behrad projet\Android\right version\BPQView\alpha-V2-1791400\app\src\main\AndroidManifest.xml:21:13-47
+	android:label
+		ADDED from C:\Users\Telia\Desktop\behrad projet\Android\right version\BPQView\alpha-V2-1791400\app\src\main\AndroidManifest.xml:20:13-59
+	android:theme
+		ADDED from C:\Users\Telia\Desktop\behrad projet\Android\right version\BPQView\alpha-V2-1791400\app\src\main\AndroidManifest.xml:22:13-59
+	android:name
+		ADDED from C:\Users\Telia\Desktop\behrad projet\Android\right version\BPQView\alpha-V2-1791400\app\src\main\AndroidManifest.xml:19:13-36
+activity#com.example.tcp_ip.Logging
+ADDED from C:\Users\Telia\Desktop\behrad projet\Android\right version\BPQView\alpha-V2-1791400\app\src\main\AndroidManifest.xml:23:9-25:50
+	android:parentActivityName
+		ADDED from C:\Users\Telia\Desktop\behrad projet\Android\right version\BPQView\alpha-V2-1791400\app\src\main\AndroidManifest.xml:25:13-47
+	android:name
+		ADDED from C:\Users\Telia\Desktop\behrad projet\Android\right version\BPQView\alpha-V2-1791400\app\src\main\AndroidManifest.xml:24:13-36
+activity#com.example.tcp_ip.Device_Info
+ADDED from C:\Users\Telia\Desktop\behrad projet\Android\right version\BPQView\alpha-V2-1791400\app\src\main\AndroidManifest.xml:26:9-28:50
+	android:parentActivityName
+		ADDED from C:\Users\Telia\Desktop\behrad projet\Android\right version\BPQView\alpha-V2-1791400\app\src\main\AndroidManifest.xml:28:13-47
+	android:name
+		ADDED from C:\Users\Telia\Desktop\behrad projet\Android\right version\BPQView\alpha-V2-1791400\app\src\main\AndroidManifest.xml:27:13-40
+activity#com.example.tcp_ip.settings
+ADDED from C:\Users\Telia\Desktop\behrad projet\Android\right version\BPQView\alpha-V2-1791400\app\src\main\AndroidManifest.xml:29:9-32:50
+	android:screenOrientation
+		ADDED from C:\Users\Telia\Desktop\behrad projet\Android\right version\BPQView\alpha-V2-1791400\app\src\main\AndroidManifest.xml:31:13-49
+	android:parentActivityName
+		ADDED from C:\Users\Telia\Desktop\behrad projet\Android\right version\BPQView\alpha-V2-1791400\app\src\main\AndroidManifest.xml:32:13-47
+	android:name
+		ADDED from C:\Users\Telia\Desktop\behrad projet\Android\right version\BPQView\alpha-V2-1791400\app\src\main\AndroidManifest.xml:30:13-37
+activity#com.example.tcp_ip.testtest
+ADDED from C:\Users\Telia\Desktop\behrad projet\Android\right version\BPQView\alpha-V2-1791400\app\src\main\AndroidManifest.xml:33:9-46
+	android:name
+		ADDED from C:\Users\Telia\Desktop\behrad projet\Android\right version\BPQView\alpha-V2-1791400\app\src\main\AndroidManifest.xml:33:19-43
+activity#com.example.tcp_ip.chart
+ADDED from C:\Users\Telia\Desktop\behrad projet\Android\right version\BPQView\alpha-V2-1791400\app\src\main\AndroidManifest.xml:34:9-37:50
+	android:screenOrientation
+		ADDED from C:\Users\Telia\Desktop\behrad projet\Android\right version\BPQView\alpha-V2-1791400\app\src\main\AndroidManifest.xml:36:13-49
+	android:parentActivityName
+		ADDED from C:\Users\Telia\Desktop\behrad projet\Android\right version\BPQView\alpha-V2-1791400\app\src\main\AndroidManifest.xml:37:13-47
+	android:name
+		ADDED from C:\Users\Telia\Desktop\behrad projet\Android\right version\BPQView\alpha-V2-1791400\app\src\main\AndroidManifest.xml:35:13-34
+activity#com.example.tcp_ip.Menu
+ADDED from C:\Users\Telia\Desktop\behrad projet\Android\right version\BPQView\alpha-V2-1791400\app\src\main\AndroidManifest.xml:38:9-42
+	android:name
+		ADDED from C:\Users\Telia\Desktop\behrad projet\Android\right version\BPQView\alpha-V2-1791400\app\src\main\AndroidManifest.xml:38:19-39
+activity#com.example.tcp_ip.Data
+ADDED from C:\Users\Telia\Desktop\behrad projet\Android\right version\BPQView\alpha-V2-1791400\app\src\main\AndroidManifest.xml:39:9-42:50
+	android:screenOrientation
+		ADDED from C:\Users\Telia\Desktop\behrad projet\Android\right version\BPQView\alpha-V2-1791400\app\src\main\AndroidManifest.xml:41:13-49
+	android:parentActivityName
+		ADDED from C:\Users\Telia\Desktop\behrad projet\Android\right version\BPQView\alpha-V2-1791400\app\src\main\AndroidManifest.xml:42:13-47
+	android:name
+		ADDED from C:\Users\Telia\Desktop\behrad projet\Android\right version\BPQView\alpha-V2-1791400\app\src\main\AndroidManifest.xml:40:13-33
+activity#com.example.tcp_ip.SplashScreen
+ADDED from C:\Users\Telia\Desktop\behrad projet\Android\right version\BPQView\alpha-V2-1791400\app\src\main\AndroidManifest.xml:43:9-52:20
+	android:screenOrientation
+		ADDED from C:\Users\Telia\Desktop\behrad projet\Android\right version\BPQView\alpha-V2-1791400\app\src\main\AndroidManifest.xml:45:13-49
+	android:theme
+		ADDED from C:\Users\Telia\Desktop\behrad projet\Android\right version\BPQView\alpha-V2-1791400\app\src\main\AndroidManifest.xml:46:13-53
+	android:name
+		ADDED from C:\Users\Telia\Desktop\behrad projet\Android\right version\BPQView\alpha-V2-1791400\app\src\main\AndroidManifest.xml:44:13-41
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\Telia\Desktop\behrad projet\Android\right version\BPQView\alpha-V2-1791400\app\src\main\AndroidManifest.xml:47:13-51:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\Telia\Desktop\behrad projet\Android\right version\BPQView\alpha-V2-1791400\app\src\main\AndroidManifest.xml:48:17-69
+	android:name
+		ADDED from C:\Users\Telia\Desktop\behrad projet\Android\right version\BPQView\alpha-V2-1791400\app\src\main\AndroidManifest.xml:48:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\Telia\Desktop\behrad projet\Android\right version\BPQView\alpha-V2-1791400\app\src\main\AndroidManifest.xml:50:17-77
+	android:name
+		ADDED from C:\Users\Telia\Desktop\behrad projet\Android\right version\BPQView\alpha-V2-1791400\app\src\main\AndroidManifest.xml:50:27-74
+activity#com.example.tcp_ip.MainActivity
+ADDED from C:\Users\Telia\Desktop\behrad projet\Android\right version\BPQView\alpha-V2-1791400\app\src\main\AndroidManifest.xml:53:9-50
+	android:name
+		ADDED from C:\Users\Telia\Desktop\behrad projet\Android\right version\BPQView\alpha-V2-1791400\app\src\main\AndroidManifest.xml:53:19-47
+uses-sdk
+INJECTED from C:\Users\Telia\Desktop\behrad projet\Android\right version\BPQView\alpha-V2-1791400\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\Telia\Desktop\behrad projet\Android\right version\BPQView\alpha-V2-1791400\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Telia\Desktop\behrad projet\Android\right version\BPQView\alpha-V2-1791400\app\src\main\AndroidManifest.xml
+MERGED from [androidx.navigation:navigation-fragment-ktx:2.3.5] C:\Users\Telia\.gradle\caches\transforms-2\files-2.1\5c361230693d2259050c4dc6007d9970\navigation-fragment-ktx-2.3.5\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-fragment-ktx:2.3.5] C:\Users\Telia\.gradle\caches\transforms-2\files-2.1\5c361230693d2259050c4dc6007d9970\navigation-fragment-ktx-2.3.5\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment-ktx:1.2.4] C:\Users\Telia\.gradle\caches\transforms-2\files-2.1\c1018a550a9c2363e68d6dfd7f98aaf9\jetified-fragment-ktx-1.2.4\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment-ktx:1.2.4] C:\Users\Telia\.gradle\caches\transforms-2\files-2.1\c1018a550a9c2363e68d6dfd7f98aaf9\jetified-fragment-ktx-1.2.4\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-ui-ktx:2.3.5] C:\Users\Telia\.gradle\caches\transforms-2\files-2.1\5bc1837060b7b7de9af9b24976e22652\navigation-ui-ktx-2.3.5\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-ui-ktx:2.3.5] C:\Users\Telia\.gradle\caches\transforms-2\files-2.1\5bc1837060b7b7de9af9b24976e22652\navigation-ui-ktx-2.3.5\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.3.5] C:\Users\Telia\.gradle\caches\transforms-2\files-2.1\d2b0242b99c8045f949b98798d2e8316\navigation-runtime-ktx-2.3.5\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.3.5] C:\Users\Telia\.gradle\caches\transforms-2\files-2.1\d2b0242b99c8045f949b98798d2e8316\navigation-runtime-ktx-2.3.5\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-common-ktx:2.3.5] C:\Users\Telia\.gradle\caches\transforms-2\files-2.1\f1d69b6e639b45316d500c4b2df83023\navigation-common-ktx-2.3.5\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-common-ktx:2.3.5] C:\Users\Telia\.gradle\caches\transforms-2\files-2.1\f1d69b6e639b45316d500c4b2df83023\navigation-common-ktx-2.3.5\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity-ktx:1.1.0] C:\Users\Telia\.gradle\caches\transforms-2\files-2.1\30c69086bf7de9593fc5ea0fb80e0a15\jetified-activity-ktx-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity-ktx:1.1.0] C:\Users\Telia\.gradle\caches\transforms-2\files-2.1\30c69086bf7de9593fc5ea0fb80e0a15\jetified-activity-ktx-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core-ktx:1.3.2] C:\Users\Telia\.gradle\caches\transforms-2\files-2.1\70918615fcb9322e11f0e60418e38dd5\jetified-core-ktx-1.3.2\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.core:core-ktx:1.3.2] C:\Users\Telia\.gradle\caches\transforms-2\files-2.1\70918615fcb9322e11f0e60418e38dd5\jetified-core-ktx-1.3.2\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.2.0] C:\Users\Telia\.gradle\caches\transforms-2\files-2.1\0e888426572a89697f671489623c0f40\jetified-lifecycle-viewmodel-ktx-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.2.0] C:\Users\Telia\.gradle\caches\transforms-2\files-2.1\0e888426572a89697f671489623c0f40\jetified-lifecycle-viewmodel-ktx-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.2.0] C:\Users\Telia\.gradle\caches\transforms-2\files-2.1\4f4cb03f7e3773c877ebb94679693d71\jetified-lifecycle-runtime-ktx-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.2.0] C:\Users\Telia\.gradle\caches\transforms-2\files-2.1\4f4cb03f7e3773c877ebb94679693d71\jetified-lifecycle-runtime-ktx-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.2.0] C:\Users\Telia\.gradle\caches\transforms-2\files-2.1\120aac42664f7802e75cc1db133ccf49\jetified-lifecycle-livedata-core-ktx-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.2.0] C:\Users\Telia\.gradle\caches\transforms-2\files-2.1\120aac42664f7802e75cc1db133ccf49\jetified-lifecycle-livedata-core-ktx-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-ui:2.3.5] C:\Users\Telia\.gradle\caches\transforms-2\files-2.1\d56613c7d2b6e4f930ee23250b0f12b7\navigation-ui-2.3.5\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-ui:2.3.5] C:\Users\Telia\.gradle\caches\transforms-2\files-2.1\d56613c7d2b6e4f930ee23250b0f12b7\navigation-ui-2.3.5\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.material:material:1.2.1] C:\Users\Telia\.gradle\caches\transforms-2\files-2.1\7c7475baa7a188b42262bfe047bfac4b\material-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.2.1] C:\Users\Telia\.gradle\caches\transforms-2\files-2.1\7c7475baa7a188b42262bfe047bfac4b\material-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\Telia\.gradle\caches\transforms-2\files-2.1\86c8362e45c9d88dbf1cb30a1c8227f3\constraintlayout-2.0.4\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\Telia\.gradle\caches\transforms-2\files-2.1\86c8362e45c9d88dbf1cb30a1c8227f3\constraintlayout-2.0.4\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.appcompat:appcompat:1.2.0] C:\Users\Telia\.gradle\caches\transforms-2\files-2.1\7bf486935e2cf6581998971bedac1c6d\appcompat-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.2.0] C:\Users\Telia\.gradle\caches\transforms-2\files-2.1\7bf486935e2cf6581998971bedac1c6d\appcompat-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.github.PhilJay:MPAndroidChart:v3.1.0] C:\Users\Telia\.gradle\caches\transforms-2\files-2.1\d3e8c2ce81e73a42e5fd53ceb8651dfc\jetified-MPAndroidChart-v3.1.0\AndroidManifest.xml:16:5-18:41
+MERGED from [com.github.PhilJay:MPAndroidChart:v3.1.0] C:\Users\Telia\.gradle\caches\transforms-2\files-2.1\d3e8c2ce81e73a42e5fd53ceb8651dfc\jetified-MPAndroidChart-v3.1.0\AndroidManifest.xml:16:5-18:41
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\Telia\.gradle\caches\transforms-2\files-2.1\816122283c32e5f1b9130e236274e4b4\legacy-support-v4-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\Telia\.gradle\caches\transforms-2\files-2.1\816122283c32e5f1b9130e236274e4b4\legacy-support-v4-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [pl.droidsonroids.gif:android-gif-drawable:1.2.22] C:\Users\Telia\.gradle\caches\transforms-2\files-2.1\12d89a93d8146462325aeb47861c4a1c\jetified-android-gif-drawable-1.2.22\AndroidManifest.xml:5:5-7:41
+MERGED from [pl.droidsonroids.gif:android-gif-drawable:1.2.22] C:\Users\Telia\.gradle\caches\transforms-2\files-2.1\12d89a93d8146462325aeb47861c4a1c\jetified-android-gif-drawable-1.2.22\AndroidManifest.xml:5:5-7:41
+MERGED from [com.xwray:groupie:2.1.0] C:\Users\Telia\.gradle\caches\transforms-2\files-2.1\a5281544e63e3a6539b76f4e650d828c\jetified-groupie-2.1.0\AndroidManifest.xml:7:5-9:41
+MERGED from [com.xwray:groupie:2.1.0] C:\Users\Telia\.gradle\caches\transforms-2\files-2.1\a5281544e63e3a6539b76f4e650d828c\jetified-groupie-2.1.0\AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Telia\.gradle\caches\transforms-2\files-2.1\930a89c8dc62c8ad9fb5309b2bcf54e5\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Telia\.gradle\caches\transforms-2\files-2.1\930a89c8dc62c8ad9fb5309b2bcf54e5\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\Telia\.gradle\caches\transforms-2\files-2.1\ac5ef0dd2ea9e9fc0d37caec0b41685b\legacy-support-core-ui-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\Telia\.gradle\caches\transforms-2\files-2.1\ac5ef0dd2ea9e9fc0d37caec0b41685b\legacy-support-core-ui-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\Telia\.gradle\caches\transforms-2\files-2.1\e1b1b375e052e85221b7a4b3c8b12e6e\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\Telia\.gradle\caches\transforms-2\files-2.1\e1b1b375e052e85221b7a4b3c8b12e6e\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] C:\Users\Telia\.gradle\caches\transforms-2\files-2.1\6374ca097572e95b746a19ae66f229c4\jetified-appcompat-resources-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] C:\Users\Telia\.gradle\caches\transforms-2\files-2.1\6374ca097572e95b746a19ae66f229c4\jetified-appcompat-resources-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\Telia\.gradle\caches\transforms-2\files-2.1\c5b3e2466260255aa521604206c50ae9\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\Telia\.gradle\caches\transforms-2\files-2.1\c5b3e2466260255aa521604206c50ae9\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\Telia\.gradle\caches\transforms-2\files-2.1\e6247819d72e13f42304acf6ba3312ca\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\Telia\.gradle\caches\transforms-2\files-2.1\e6247819d72e13f42304acf6ba3312ca\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\Telia\.gradle\caches\transforms-2\files-2.1\0e2daabeef5a315a3ffbd8362da66a88\jetified-viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\Telia\.gradle\caches\transforms-2\files-2.1\0e2daabeef5a315a3ffbd8362da66a88\jetified-viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.media:media:1.0.0] C:\Users\Telia\.gradle\caches\transforms-2\files-2.1\c7fd1948ffafcc65fb3b23f9786ab7ff\media-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] C:\Users\Telia\.gradle\caches\transforms-2\files-2.1\c7fd1948ffafcc65fb3b23f9786ab7ff\media-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\Telia\.gradle\caches\transforms-2\files-2.1\a3056e9d375dcf132b75b4d6462a4600\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\Telia\.gradle\caches\transforms-2\files-2.1\a3056e9d375dcf132b75b4d6462a4600\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\Telia\.gradle\caches\transforms-2\files-2.1\8df487e4928c56bf5f81c1495ece00af\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\Telia\.gradle\caches\transforms-2\files-2.1\8df487e4928c56bf5f81c1495ece00af\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-fragment:2.3.5] C:\Users\Telia\.gradle\caches\transforms-2\files-2.1\cea02561e364aaebb18202d016d7a2aa\navigation-fragment-2.3.5\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-fragment:2.3.5] C:\Users\Telia\.gradle\caches\transforms-2\files-2.1\cea02561e364aaebb18202d016d7a2aa\navigation-fragment-2.3.5\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.2.4] C:\Users\Telia\.gradle\caches\transforms-2\files-2.1\d9ca1dd3aba92a5c7f3f44ae5c651019\fragment-1.2.4\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.2.4] C:\Users\Telia\.gradle\caches\transforms-2\files-2.1\d9ca1dd3aba92a5c7f3f44ae5c651019\fragment-1.2.4\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Telia\.gradle\caches\transforms-2\files-2.1\5737a15cf189586314c8f0c0018abbd8\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Telia\.gradle\caches\transforms-2\files-2.1\5737a15cf189586314c8f0c0018abbd8\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\Telia\.gradle\caches\transforms-2\files-2.1\8d6fe3339db0bf783d2a6313c75c93d1\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\Telia\.gradle\caches\transforms-2\files-2.1\8d6fe3339db0bf783d2a6313c75c93d1\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\Telia\.gradle\caches\transforms-2\files-2.1\7a8fd11edffcd6526b2c872cad796d0b\slidingpanelayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\Telia\.gradle\caches\transforms-2\files-2.1\7a8fd11edffcd6526b2c872cad796d0b\slidingpanelayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\Telia\.gradle\caches\transforms-2\files-2.1\62941f2c365a0488c4b15f31832fb09a\swiperefreshlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\Telia\.gradle\caches\transforms-2\files-2.1\62941f2c365a0488c4b15f31832fb09a\swiperefreshlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\Telia\.gradle\caches\transforms-2\files-2.1\80a50724c7c8bf5953775bae4621eba4\asynclayoutinflater-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\Telia\.gradle\caches\transforms-2\files-2.1\80a50724c7c8bf5953775bae4621eba4\asynclayoutinflater-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\Telia\.gradle\caches\transforms-2\files-2.1\afe1018b4c48a4ce324e7fa4d2cbf0be\drawerlayout-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\Telia\.gradle\caches\transforms-2\files-2.1\afe1018b4c48a4ce324e7fa4d2cbf0be\drawerlayout-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\Telia\.gradle\caches\transforms-2\files-2.1\cbc05ec9b9fe0a52443abb26e4eb281b\customview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\Telia\.gradle\caches\transforms-2\files-2.1\cbc05ec9b9fe0a52443abb26e4eb281b\customview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.3.0] C:\Users\Telia\.gradle\caches\transforms-2\files-2.1\f5456b659547fd1310ed41817acdc279\transition-1.3.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.3.0] C:\Users\Telia\.gradle\caches\transforms-2\files-2.1\f5456b659547fd1310ed41817acdc279\transition-1.3.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-runtime:2.3.5] C:\Users\Telia\.gradle\caches\transforms-2\files-2.1\9daa06cc9abd79d51009c2bc4094aab7\navigation-runtime-2.3.5\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-runtime:2.3.5] C:\Users\Telia\.gradle\caches\transforms-2\files-2.1\9daa06cc9abd79d51009c2bc4094aab7\navigation-runtime-2.3.5\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.1.0] C:\Users\Telia\.gradle\caches\transforms-2\files-2.1\88aac62338dac801d5a314ee407fa6ed\jetified-activity-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.1.0] C:\Users\Telia\.gradle\caches\transforms-2\files-2.1\88aac62338dac801d5a314ee407fa6ed\jetified-activity-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-common:2.3.5] C:\Users\Telia\.gradle\caches\transforms-2\files-2.1\ae747dd85daaf79af4930f7b6c33d73d\navigation-common-2.3.5\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-common:2.3.5] C:\Users\Telia\.gradle\caches\transforms-2\files-2.1\ae747dd85daaf79af4930f7b6c33d73d\navigation-common-2.3.5\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.3.2] C:\Users\Telia\.gradle\caches\transforms-2\files-2.1\8dec601f45437c957e89ca33d688e76a\core-1.3.2\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.3.2] C:\Users\Telia\.gradle\caches\transforms-2\files-2.1\8dec601f45437c957e89ca33d688e76a\core-1.3.2\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Telia\.gradle\caches\transforms-2\files-2.1\62a91f25b348591cc15acc99c60df661\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Telia\.gradle\caches\transforms-2\files-2.1\62a91f25b348591cc15acc99c60df661\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\Telia\.gradle\caches\transforms-2\files-2.1\34fb924ef230ace9a77101a5f0eb4e8d\versionedparcelable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\Telia\.gradle\caches\transforms-2\files-2.1\34fb924ef230ace9a77101a5f0eb4e8d\versionedparcelable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Telia\.gradle\caches\transforms-2\files-2.1\b237374c28e05de58e882772b3231f1d\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Telia\.gradle\caches\transforms-2\files-2.1\b237374c28e05de58e882772b3231f1d\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Telia\.gradle\caches\transforms-2\files-2.1\9e8113cd675119259d6b932a6fd69295\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Telia\.gradle\caches\transforms-2\files-2.1\9e8113cd675119259d6b932a6fd69295\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\Telia\.gradle\caches\transforms-2\files-2.1\095bcf875e623e60b12deeb2f0570b5f\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\Telia\.gradle\caches\transforms-2\files-2.1\095bcf875e623e60b12deeb2f0570b5f\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Telia\.gradle\caches\transforms-2\files-2.1\a01e2fff2aadb18c0a70f529ad1dd9cc\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Telia\.gradle\caches\transforms-2\files-2.1\a01e2fff2aadb18c0a70f529ad1dd9cc\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.2.0] C:\Users\Telia\.gradle\caches\transforms-2\files-2.1\a0378a36b627d40863216b67893df6c8\jetified-lifecycle-viewmodel-savedstate-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.2.0] C:\Users\Telia\.gradle\caches\transforms-2\files-2.1\a0378a36b627d40863216b67893df6c8\jetified-lifecycle-viewmodel-savedstate-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0] C:\Users\Telia\.gradle\caches\transforms-2\files-2.1\eebf391fca65251329e05262594bcbb5\lifecycle-viewmodel-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0] C:\Users\Telia\.gradle\caches\transforms-2\files-2.1\eebf391fca65251329e05262594bcbb5\lifecycle-viewmodel-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\Telia\.gradle\caches\transforms-2\files-2.1\729b94392575afa626f22b9098f2b277\jetified-savedstate-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\Telia\.gradle\caches\transforms-2\files-2.1\729b94392575afa626f22b9098f2b277\jetified-savedstate-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] C:\Users\Telia\.gradle\caches\transforms-2\files-2.1\9acff1b0f8ae55692334b7d6b76f0380\lifecycle-runtime-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] C:\Users\Telia\.gradle\caches\transforms-2\files-2.1\9acff1b0f8ae55692334b7d6b76f0380\lifecycle-runtime-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\Telia\.gradle\caches\transforms-2\files-2.1\1e32f77205697c4a379284c2ca910e65\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\Telia\.gradle\caches\transforms-2\files-2.1\1e32f77205697c4a379284c2ca910e65\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] C:\Users\Telia\.gradle\caches\transforms-2\files-2.1\f7cee7dd8b7e70d7b7ebdc5833f64703\lifecycle-livedata-core-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] C:\Users\Telia\.gradle\caches\transforms-2\files-2.1\f7cee7dd8b7e70d7b7ebdc5833f64703\lifecycle-livedata-core-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\Telia\.gradle\caches\transforms-2\files-2.1\ee163a923db7e7893a440ece432ec242\core-runtime-2.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\Telia\.gradle\caches\transforms-2\files-2.1\ee163a923db7e7893a440ece432ec242\core-runtime-2.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.0.0] C:\Users\Telia\.gradle\caches\transforms-2\files-2.1\e2fdb1510421be07eea1c8dddb6605bc\jetified-annotation-experimental-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.0.0] C:\Users\Telia\.gradle\caches\transforms-2\files-2.1\e2fdb1510421be07eea1c8dddb6605bc\jetified-annotation-experimental-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [pl.droidsonroids.relinker:relinker:1.4.1] C:\Users\Telia\.gradle\caches\transforms-2\files-2.1\d43b13589eb5e4f34d3ac37ebc09c308\jetified-relinker-1.4.1\AndroidManifest.xml:5:5-43
+MERGED from [pl.droidsonroids.relinker:relinker:1.4.1] C:\Users\Telia\.gradle\caches\transforms-2\files-2.1\d43b13589eb5e4f34d3ac37ebc09c308\jetified-relinker-1.4.1\AndroidManifest.xml:5:5-43
+INJECTED from C:\Users\Telia\Desktop\behrad projet\Android\right version\BPQView\alpha-V2-1791400\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Telia\Desktop\behrad projet\Android\right version\BPQView\alpha-V2-1791400\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from C:\Users\Telia\Desktop\behrad projet\Android\right version\BPQView\alpha-V2-1791400\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Telia\Desktop\behrad projet\Android\right version\BPQView\alpha-V2-1791400\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Telia\Desktop\behrad projet\Android\right version\BPQView\alpha-V2-1791400\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\Telia\Desktop\behrad projet\Android\right version\BPQView\alpha-V2-1791400\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Telia\Desktop\behrad projet\Android\right version\BPQView\alpha-V2-1791400\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Telia\Desktop\behrad projet\Android\right version\BPQView\alpha-V2-1791400\app\src\main\AndroidManifest.xml

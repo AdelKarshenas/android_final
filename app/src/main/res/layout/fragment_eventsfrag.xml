@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_round"
+    tools:context=".Eventsfrag">
+
+    <TextView
+        android:id="@+id/textView97"
+        style="@style/MyTextViewStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Number of Alarms"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView113" />
+
+    <TextView
+        android:id="@+id/textView98"
+        style="@style/MyTextViewStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="20"
+        app:layout_constraintEnd_toEndOf="@+id/textView97"
+        app:layout_constraintStart_toStartOf="@+id/textView97"
+        app:layout_constraintTop_toBottomOf="@+id/textView97" />
+
+    <TextView
+        android:id="@+id/textView113"
+        style="@style/MyTextViewStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/title"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:text="Alarms"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/view6" />
+
+    <TextView
+        android:id="@+id/size"
+        style="@style/MyTextViewStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Number of Events"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView96" />
+
+    <TextView
+        android:id="@+id/textView11"
+        style="@style/MyTextViewStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="254"
+        app:layout_constraintEnd_toEndOf="@+id/size"
+        app:layout_constraintStart_toStartOf="@+id/size"
+        app:layout_constraintTop_toBottomOf="@+id/size" />
+
+    <TextView
+        android:id="@+id/textView96"
+        style="@style/MyTextViewStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/title"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:text="Events"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:id="@+id/view6"
+        android:layout_width="0dp"
+        android:layout_height="1dp"
+        android:layout_marginTop="24dp"
+        android:background="#000000"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonshare1" />
+
+    <Button
+        android:id="@+id/download1"
+        style="@style/Widget.AppCompat.Button.Small"
+        android:layout_width="wrap_content"
+        android:layout_height="38dp"
+        android:layout_marginTop="8dp"
+        android:text="Download"
+        android:textColor="#1B0E0E"
+        app:layout_constraintEnd_toEndOf="@+id/textView11"
+        app:layout_constraintHorizontal_bias="0.506"
+        app:layout_constraintStart_toStartOf="@+id/textView11"
+        app:layout_constraintTop_toBottomOf="@+id/textView11" />
+
+    <Button
+        android:id="@+id/buttonshare1"
+        style="@style/Widget.MaterialComponents.Button"
+        android:layout_width="89dp"
+        android:layout_height="39dp"
+        android:layout_marginTop="8dp"
+        android:text="Share"
+        android:textColor="#1B0E0E"
+        android:visibility="invisible"
+        app:iconPadding="0dp"
+        app:layout_constraintEnd_toEndOf="@+id/download1"
+        app:layout_constraintStart_toStartOf="@+id/download1"
+        app:layout_constraintTop_toBottomOf="@+id/download1" />
+
+    <Button
+        android:id="@+id/download2"
+        style="@style/Widget.AppCompat.Button.Small"
+        android:layout_width="wrap_content"
+        android:layout_height="38dp"
+        android:layout_marginTop="8dp"
+        android:text="Download"
+        android:textColor="#1B0E0E"
+        app:layout_constraintEnd_toEndOf="@+id/textView98"
+        app:layout_constraintStart_toStartOf="@+id/textView98"
+        app:layout_constraintTop_toBottomOf="@+id/textView98" />
+
+    <Button
+        android:id="@+id/buttonshare2"
+        style="@style/Widget.MaterialComponents.Button"
+        android:layout_width="89dp"
+        android:layout_height="39dp"
+        android:layout_marginTop="8dp"
+        android:text="Share"
+        android:textColor="#1B0E0E"
+        android:visibility="invisible"
+        app:iconPadding="0dp"
+        app:layout_constraintEnd_toEndOf="@+id/download2"
+        app:layout_constraintStart_toStartOf="@+id/download2"
+        app:layout_constraintTop_toBottomOf="@+id/download2" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,4 @@
+#Tue Aug 16 16:57:20 IRDT 2022
+base.0=C\:\\Users\\Telia\\Desktop\\behrad projet\\Android\\right version\\BPQView\\alpha-V2-1791400\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex
