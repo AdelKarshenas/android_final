@@ -28,6 +28,8 @@ class MainActivity : AppCompatActivity() {
         val connectivityManager = getSystemService(Context.CONNECTIVITY_SERVICE) as ConnectivityManager
         StartConnectionBtn.setOnClickListener(){
 
+
+
             //Checking to see if the device is connected to the right Wifi
             if(connectivityManager.getNetworkInfo(ConnectivityManager.TYPE_WIFI).getState() == NetworkInfo.State.CONNECTED)
             {
@@ -44,10 +46,10 @@ class MainActivity : AppCompatActivity() {
                 is_connected=false
             }
 
-            if (is_connected==false){
+   /*         if (is_connected==false){
                 startActivity( Intent(Settings.ACTION_WIFI_SETTINGS));
-            }
-
+            }*/
+            is_connected=true
             if (is_connected==true){
 
                 var intent = Intent(this,Menu::class.java)

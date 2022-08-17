@@ -73,7 +73,7 @@ class Records_fragment : Fragment() {
                         textinput="jklop"
                     }
                     CoroutineScope(Dispatchers.IO).launch{
-                        var sts =sockcreation("monitoring")
+                        var sts =sockcreation("testtcp")
                         newstring="qq"
                         newstring=newstring+ sts!![0].toInt().toString()
                         newstring=newstring+ sts!![1].toInt().toString()

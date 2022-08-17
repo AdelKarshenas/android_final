@@ -486,10 +486,11 @@ public suspend fun wave(): String {
 
 
 public suspend fun sockcreation(input:String): ByteArray? {
-    val clientSocket = Socket("192.168.160.1", 321)
+    //val clientSocket = Socket("192.168.160.1", 321)
+    val clientSocket = Socket("192.168.157.59", 5000)
     val outToServer: PrintWriter = PrintWriter(OutputStreamWriter(clientSocket!!.getOutputStream()))
     var buffer:ByteArray?=null
-
+    var output =""
     Log.i(Chart.LOG_TAG, "this is before loop")
     while (true){
         outToServer.print(input)
@@ -518,7 +519,7 @@ public suspend fun sockcreation(input:String): ByteArray? {
         val `is`: InputStream = clientSocket!!.getInputStream()
         buffer = ByteArray(500)
         var read: Int
-        var output =""
+
         while (`is`.read(buffer).also { read = it } != -1) {
             output = String(buffer, 0, read)
 //            byteToInt(buffer)
@@ -532,7 +533,7 @@ public suspend fun sockcreation(input:String): ByteArray? {
         //   Log.i(LOG_TAG,"this is out of while")
         break
     }
-    clientSocket!!.close()
+    //clientSocket!!.close()
     return buffer
     Log.i(Chart.LOG_TAG, "this is the end of function")
     // val `is` = clientSocket!!.getInputStream()
