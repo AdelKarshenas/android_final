@@ -17,7 +17,7 @@ import java.io.InputStreamReader
 import java.lang.IllegalStateException
 import java.net.Socket
 
-public var Ip:String="192.168.150.1"
+public var Ip:String="192.168.160.1"
 public var port:Int=321
 class MainActivity : AppCompatActivity() {
 
@@ -33,7 +33,7 @@ class MainActivity : AppCompatActivity() {
 
             val connectivityManager = getSystemService(Context.CONNECTIVITY_SERVICE) as ConnectivityManager
 
-            if (Is_Connected("192.168.150",5000,connectivityManager)==false){
+            if (Is_Connected("192.168.160",5000,connectivityManager)==false){
                 startActivity( Intent(Settings.ACTION_WIFI_SETTINGS));
             }
             else {

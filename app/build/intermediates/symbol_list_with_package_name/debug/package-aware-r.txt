@@ -1788,7 +1788,6 @@ id beginning
 id blocking
 id bottom
 id bounce
-id button
 id button123
 id button4
 id button5
@@ -1943,8 +1942,11 @@ id home
 id homeAsUp
 id honorRequest
 id ia
+id ia_text
 id ib
+id ib_text
 id ic
+id ic_text
 id icon
 id icon_group
 id ifRoom
@@ -2355,6 +2357,12 @@ id viewpager1
 id visible
 id visible_removing_fragment_view_tag
 id vl
+id vlla_text
+id vllb_text
+id vllc_text
+id vlna_text
+id vlnb_text
+id vlnc_text
 id voltage
 id wavefromtext
 id wbtext

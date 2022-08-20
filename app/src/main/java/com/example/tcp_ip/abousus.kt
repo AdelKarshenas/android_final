@@ -27,17 +27,6 @@ class abousus : AppCompatActivity() {
         getSupportActionBar()?.setDisplayHomeAsUpEnabled(true);
         getSupportActionBar()?.setDisplayShowHomeEnabled(true);
         getSupportActionBar()?.setTitle("")
-        button.setOnClickListener(){
-            CoroutineScope(Dispatchers.IO).launch{
-                var str=esockcreation(Ip, port,"testtcp")
-                var i =3
-                runOnUiThread {
-                    textView2.text= str.toString()
-                }
-            }
-
-
-        }
 
     }
 }

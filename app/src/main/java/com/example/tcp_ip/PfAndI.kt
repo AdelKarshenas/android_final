@@ -56,13 +56,13 @@ class PfAndI: Fragment() {
         var pbarray=unitInteger(IbInt.toLong(),"A")
         var pcrray=unitInteger(IcInt.toLong(),"A")
         var ptarray=unitInteger(ItInt.toLong(),"A")
-        ia.text=paarray[0]
+        //ia.text=paarray[0]
         unitIa.text=paarray[1]
-        ib.text=pbarray[0]
+        //ib.text=pbarray[0]
         unitIb.text=pbarray[1]
-        ic.text=pcrray[0]
+        //ic.text=pcrray[0]
         unitIc.text=pcrray[1]
-        In.text=ptarray[0]
+        //In.text=ptarray[0]
         unitIn.text=ptarray[1]
         //if (paarray[1]==2.0f) Log.i(Chart.LOG_TAG,"this is function13    ${paarray[1]} ${paarray[0]}")
 

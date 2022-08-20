@@ -192,6 +192,7 @@ class waveformchart : Fragment() {
                             tmp = 256+tmp
 
                         }
+                        //tmp=tmp-127
                         y = tmp.toDouble()
                         entries4.add(Entry(x.toFloat(),y.toFloat()))
                     }
@@ -207,6 +208,7 @@ class waveformchart : Fragment() {
                             tmp = 256+tmp
 
                         }
+                        //tmp=tmp-127
                         y = tmp.toDouble()
                         entries5.add(Entry(x.toFloat(),y.toFloat()))
                     }
@@ -222,6 +224,7 @@ class waveformchart : Fragment() {
                             tmp = 256+tmp
 
                         }
+                        //tmp=tmp-127
                         y = tmp.toDouble()
                         entries6.add(Entry(x.toFloat(),y.toFloat()))
                     }
@@ -237,6 +240,7 @@ class waveformchart : Fragment() {
                             tmp = 256+tmp
 
                         }
+                        //tmp=tmp-127
                         y = tmp.toDouble()
                         entries7.add(Entry(x.toFloat(),y.toFloat()))
                     }
@@ -252,6 +256,7 @@ class waveformchart : Fragment() {
                             tmp = 256+tmp
 
                         }
+                        //tmp=tmp-127
                         y = tmp.toDouble()
                         entries8.add(Entry(x.toFloat(),y.toFloat()))
                     }
@@ -267,6 +272,7 @@ class waveformchart : Fragment() {
                             tmp = 256+tmp
 
                         }
+                       // tmp=tmp-127
                         y = tmp.toDouble()
                         entries9.add(Entry(x.toFloat(),y.toFloat()))
                     }
@@ -520,10 +526,10 @@ public suspend fun sockcreation(ip:String,port:Int, input:String): ByteArray? {
         //   Log.i(LOG_TAG,"this is out of while")
         break
     }
-    //clientSocket!!.close()
+    clientSocket!!.close()
     return buffer
     Log.i(Chart.LOG_TAG, "this is the end of function")
-    // val `is` = clientSocket!!.getInputStream()
+    // val `is` = clientSocket!!.g/etInputStream()
 
 
 }

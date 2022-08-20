@@ -159,7 +159,7 @@ class Records_fragment : Fragment() {
         val adapter= GroupAdapter<ViewHolder>()
         retrivelistbtn.setOnClickListener(){
             CoroutineScope(Dispatchers.IO).launch{
-                val ststs=dataexchange("192.168.160.1", 321,"loggingdata")
+                val ststs=dataexchange(Ip, port,"loggingdata")
                 val gson = Gson()
                 val userObject = gson.fromJson(ststs, logging_json::class.java)
                 val rec1=userObject.logs[0]

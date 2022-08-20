@@ -40,6 +40,15 @@ class phasor_frag : Fragment() {
 
     //    gets the data from the board and updates the screen
     fun getinfo(data_recived :BarChartData){
+        vlna_text.text=data_recived.vlna_s.toString()+"∠"+data_recived.vlna_a.toString()
+        vlnb_text.text=data_recived.vlnb_s.toString()+"∠"+data_recived.vlnb_a.toString()
+        vlnc_text.text=data_recived.vlnc_s.toString()+"∠"+data_recived.vlnc_a.toString()
+        vlla_text.text=data_recived.vlla_s.toString()+"∠"+data_recived.vlla_a.toString()
+        vllb_text.text=data_recived.vllb_s.toString()+"∠"+data_recived.vllb_a.toString()
+        vllc_text.text=data_recived.vllc_s.toString()+"∠"+data_recived.vllc_a.toString()
+        ia_text.text=data_recived.ia_s.toString()+"∠"+data_recived.ia_a.toString()
+        ib_text.text=data_recived.ib_s.toString()+"∠"+data_recived.ib_a.toString()
+        ic_text.text=data_recived.ic_s.toString()+"∠"+data_recived.ic_a.toString()
         val phasor_array= arrayListOf<vector>()
         phasor_array.add(vector(data_recived.vlna_s,data_recived.vlna_a,"vln"))
         phasor_array.add(vector(data_recived.vlnb_s,data_recived.vlnb_a,"vln"))
