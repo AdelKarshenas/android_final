@@ -128,7 +128,7 @@ class mainchart : Fragment() {
                             yVals2.clear()
                             yVals3.clear()
                             chart.clear()
-                            setdata(userobject!!.VnnDates,userobject!!.VlnDates,userobject!!.IDates,userobject!!.thd,"i")
+                            setdata(userobject!!.VnnDates,userobject!!.VlnDates,userobject!!.IDates,userobject!!.thd,"i", userobject!!)
 //                            yVals1.add(BarEntry(3f, 0.5f))
 //                            yVals2.add(BarEntry(3f, 1f))
 //                            yVals3.add(BarEntry(3f, 0.5f))
@@ -164,7 +164,11 @@ class mainchart : Fragment() {
                             yVals2.clear()
                             yVals3.clear()
                             chart.clear()
-                            setdata(userobject!!.VnnDates,userobject!!.VlnDates,userobject!!.IDates, userobject!!.thd,"vnn")
+                            try {
+                                setdata(userobject!!.VnnDates,userobject!!.VlnDates,userobject!!.IDates, userobject!!.thd,"vnn", userobject!!)
+                            }catch (e:KotlinNullPointerException){
+
+                            }
 
                         }
                         R.id.vl -> {
@@ -179,7 +183,7 @@ class mainchart : Fragment() {
                             yVals2.clear()
                             yVals3.clear()
                             chart.clear()
-                            setdata(userobject!!.VnnDates,userobject!!.VlnDates,userobject!!.IDates, userobject!!.thd,"vl")
+                            setdata(userobject!!.VnnDates,userobject!!.VlnDates,userobject!!.IDates, userobject!!.thd,"vl", userobject!!)
 
                         }
                     }
@@ -213,8 +217,16 @@ class mainchart : Fragment() {
         }
         return array
     }
-    fun setdata(VnnDates:Array<Float>?,VlnDates:Array<Float>?,IDates:Array<Float>?,thd:Array<Double>?,statuskeyfun:String?)
+    fun setdata(VnnDates:Array<Float>?,VlnDates:Array<Float>?,IDates:Array<Float>?,thd:Array<Double>?,statuskeyfun:String?,allofit:BarChartData)
     {
+        try {
+            thd1.text=allofit.thd[0].toString()
+            thd2.text=allofit.thd[1].toString()
+            thd3.text=allofit.thd[2].toString()
+        }
+        catch ( e:IllegalStateException){
+
+        }
 
         Log.i(LOG_TAG,"the 2000f is  " + IDates!![1].toString())
         valueVnns= setscaledata(VnnDates!!,21)
@@ -310,9 +322,7 @@ class mainchart : Fragment() {
             catch (e: IllegalStateException){
                 Log.i(LOG_TAG,"null error chart")
             }
-
-
-//            Log.i(LOG_TAG,"globalI = "+valueIs[0])
+//          Log.i(LOG_TAG,"globalI = "+valueIs[0])
             yVals1.clear()
             yVals2.clear()
             yVals3.clear()
@@ -340,7 +350,6 @@ class mainchart : Fragment() {
             yVals3.add(BarEntry(15f, ((valueIs[20].toBigDecimal().setScale(1, RoundingMode.UP).toFloat()))))
             chartcreatation(chart,yVals1,yVals2,yVals3)
         }
-
     }
     fun chartcreatation (chart: BarChart, yVals1: ArrayList<BarEntry>, yVals2: ArrayList<BarEntry>, yVals3: ArrayList<BarEntry>){
         val xValsOriginalMillis = ArrayList<String>()

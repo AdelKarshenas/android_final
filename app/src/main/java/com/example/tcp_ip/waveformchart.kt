@@ -69,7 +69,7 @@ class waveformchart : Fragment() {
                 (activity as chart).change_bool(false)
                 delay(1000)
 
-                val str= sockcreation("wave")!!
+                val str= sockcreation(Ip, port,"wave")!!
                 activity?.runOnUiThread{
 
                     var x : Double = -5.0
@@ -472,9 +472,9 @@ public suspend fun wave(): String {
 
 
 
-public suspend fun sockcreation(input:String): ByteArray? {
+public suspend fun sockcreation(ip:String,port:Int, input:String): ByteArray? {
     //val clientSocket = Socket("192.168.160.1", 321)
-    val clientSocket = Socket("192.168.157.59", 5000)
+    val clientSocket = Socket(ip, port)
     val outToServer: PrintWriter = PrintWriter(OutputStreamWriter(clientSocket!!.getOutputStream()))
     var buffer:ByteArray?=null
     var output =""

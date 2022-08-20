@@ -1,5 +1,6 @@
 package com.example.tcp_ip
 import android.os.Bundle
+import android.preference.PreferenceManager
 import android.util.Log
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
@@ -22,11 +23,14 @@ private const val ARG_PARAM2 = "param2"
  * create an instance of this fragment.
  */
 class PaAndQa : Fragment() {
+    var infobackupPandQa:info?=null
+
     // TODO: Rename and change types of parameters
     private var param1: String? = null
     private var param2: String? = null
 
     fun settext(Str :info){
+        infobackupPandQa=Str
         pa.text=Str.pa.toString()
         pb.text=Str.pb.toString()
         pc.text=Str.pc.toString()
@@ -151,7 +155,35 @@ class PaAndQa : Fragment() {
     }
 
 
+    private fun loadSavedPreferences() {
+        val sharedPreferences = PreferenceManager
+                .getDefaultSharedPreferences(activity)
+        try {
+            settext(infobackupPandQa!!)
+        }
+        catch (e:KotlinNullPointerException){}
 
+        Log.i(Chart.LOG_TAG,"load function called")
+    }
+    private fun savePreferences(key: String, value: String) {
+        val sharedPreferences = PreferenceManager
+                .getDefaultSharedPreferences(activity)
+        val editor = sharedPreferences.edit()
+        editor.putString(key, value)
+        editor.commit()
+    }
+    fun saveData() {
+        try {
+            savePreferences("vb", infobackupPandQa!!.vb.toString())
+        }
+        catch (e:KotlinNullPointerException){
+
+        }
+    }
+
+    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+        loadSavedPreferences()
+    }
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -168,7 +200,11 @@ class PaAndQa : Fragment() {
         // Inflate the layout for this fragment
         return inflater.inflate(R.layout.fragment_pa_and_qa, container, false)
     }
+    override fun onStop() {
+        saveData()
 
+        super.onStop()
+    }
     companion object {
         /**
          * Use this factory method to create a new instance of

@@ -107,7 +107,7 @@ class chart : AppCompatActivity() {
                         statuskey = barchart.statuskey
                         Log.i(LOG_TAG,"you click button"+statuskey)
                         try {
-                            barchart.setdata(userObject!!.VnnDates,userObject!!.VlnDates,userObject!!.IDates,userObject!!.thd,statuskey)
+                            barchart.setdata(userObject!!.VnnDates,userObject!!.VlnDates,userObject!!.IDates,userObject!!.thd,statuskey, userObject!!)
                         }
                         catch (e:NullPointerException){
                             Log.i(LOG_TAG,"null error chart")

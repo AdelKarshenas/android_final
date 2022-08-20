@@ -1,5 +1,6 @@
 package com.example.tcp_ip
 import android.os.Bundle
+import android.preference.PreferenceManager
 import android.util.Log
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
@@ -30,18 +31,18 @@ private const val ARG_PARAM2 = "param2"
  * create an instance of this fragment.
  */
 class EqandEp : Fragment() {
+    var infobackupPandQa:info?=null
 
     fun settext(Str :info){
-//        Str.epa.toString().toInt()
-//        Log.i(LOG_TAG,"this is function")
-//        epa.text=Str.epa.toString()
-//        epb.text=Str.epb.toString()
-//        epc.text=Str.epc.toString()
-//        ept.text=Str.ept.toString()
-//        eqa.text=Str.eqa.toString()
-//        eqb.text=Str.eqb.toString()
-//        eqc.text=Str.eqc.toString()
-//        eqt.text=Str.eqt.toString()
+        infobackupPandQa=Str
+        epa.text=Str.epa.toString()
+        epb.text=Str.epb.toString()
+        epc.text=Str.epc.toString()
+        ept.text=Str.ept.toString()
+        eqa.text=Str.eqa.toString()
+        eqb.text=Str.eqb.toString()
+        eqc.text=Str.eqc.toString()
+        eqt.text=Str.eqt.toString()
     }
     fun setunit(Str: info)
     {
@@ -238,10 +239,39 @@ class EqandEp : Fragment() {
         // Inflate the layout for this fragment
         return inflater.inflate(R.layout.fragment_eqand_ep, container, false)
     }
+    private fun loadSavedPreferences() {
+        val sharedPreferences = PreferenceManager
+                .getDefaultSharedPreferences(activity)
+        try {
+            settext(infobackupPandQa!!)
+        }
+        catch (e:KotlinNullPointerException){}
 
+        Log.i(LOG_TAG,"load function called")
+    }
+    private fun savePreferences(key: String, value: String) {
+        val sharedPreferences = PreferenceManager
+                .getDefaultSharedPreferences(activity)
+        val editor = sharedPreferences.edit()
+        editor.putString(key, value)
+        editor.commit()
+    }
+    fun saveData() {
+        try {
+            savePreferences("vb", infobackupPandQa!!.vb.toString())
+        }
+        catch (e:KotlinNullPointerException){
+
+        }
+    }
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
 
-        super.onViewCreated(view, savedInstanceState)
+        loadSavedPreferences()
+    }
+
+    override fun onStop() {
+        saveData()
+        super.onStop()
     }
     companion object {
         /**

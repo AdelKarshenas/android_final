@@ -1,22 +1,17 @@
 package com.example.tcp_ip
 
 import android.os.Bundle
+import android.preference.PreferenceManager
 import android.util.Log
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import com.github.mikephil.charting.charts.Chart
-import com.google.gson.Gson
 import kotlinx.android.synthetic.main.fragment_pa_and_qa.*
 import kotlinx.android.synthetic.main.fragment_pf_and_i.*
 import kotlinx.android.synthetic.main.fragment_vand_i.*
-import kotlinx.coroutines.CoroutineScope
-import kotlinx.coroutines.Dispatchers
-import kotlinx.coroutines.launch
-import java.lang.IllegalStateException
 import java.net.Socket
-import java.net.SocketException
 
 // TODO: Rename parameter arguments, choose names that match
 // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
@@ -30,11 +25,18 @@ var sock2: Socket?=null
  * create an instance of this fragment.
  */
 class PfAndI: Fragment() {
+    var infobackupPfandi:info?=null
+
     // TODO: Rename and change types of parameters
     private var param1: String? = null
     private var param2: String? = null
 
     fun settext(Str :info){
+        infobackupPfandi=Str
+        ia.text=Str.ia.toString()
+        ib.text=Str.ib.toString()
+        ic.text=Str.ic.toString()
+        In.text=Str.In.toString()
         pfa.text=Str.pfa.toString()
         pfb.text=Str.pfb.toString()
         pfc.text=Str.pfc.toString()
@@ -101,7 +103,31 @@ class PfAndI: Fragment() {
             return  arrayOf(tempnum.toString(),tempunit)
     }
 
+    private fun loadSavedPreferences() {
+        val sharedPreferences = PreferenceManager
+                .getDefaultSharedPreferences(activity)
+        try {
+            settext(infobackupPfandi!!)
+        }
+        catch (e:KotlinNullPointerException){}
 
+        Log.i(Chart.LOG_TAG,"load function called")
+    }
+    private fun savePreferences(key: String, value: String) {
+        val sharedPreferences = PreferenceManager
+                .getDefaultSharedPreferences(activity)
+        val editor = sharedPreferences.edit()
+        editor.putString(key, value)
+        editor.commit()
+    }
+    fun saveData() {
+        try {
+            savePreferences("vb", infobackupPfandi!!.vb.toString())
+        }
+        catch (e:KotlinNullPointerException){
+
+        }
+    }
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -121,7 +147,12 @@ class PfAndI: Fragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
 
+        loadSavedPreferences()
+    }
 
+    override fun onStop() {
+        saveData()
+        super.onStop()
     }
 
 

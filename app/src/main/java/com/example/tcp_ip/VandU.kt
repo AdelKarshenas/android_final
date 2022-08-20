@@ -6,7 +6,6 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
-import com.github.mikephil.charting.charts.Chart
 import com.github.mikephil.charting.charts.Chart.LOG_TAG
 import com.google.gson.Gson
 import kotlinx.android.synthetic.main.fragment_pa_and_qa.*
@@ -15,9 +14,6 @@ import kotlinx.android.synthetic.main.fragment_vand_i.*
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
-import java.io.BufferedReader
-import java.io.DataOutputStream
-import java.io.InputStreamReader
 import java.lang.IllegalStateException
 import java.net.Socket
 import java.net.SocketException
@@ -27,8 +23,6 @@ import java.net.SocketException
 // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
 private const val ARG_PARAM1 = "param1"
 private const val ARG_PARAM2 = "param2"
-
-var infobackup:String?=null
 
 var sock1: Socket?=null
 
@@ -41,11 +35,14 @@ public var num:Int? =100
 
 
 class VandU : Fragment() {
+    var infobackupVandU:info?=null
+
     // TODO: Rename and change types of parameters
     private var param1: String? = null
     private var param2: String? = null
 
     fun settext(Str :info){
+        infobackupVandU=Str
         va.text=Str.va.toString()
         vb.text=Str.vb.toString()
         vc.text=Str.vc.toString()
@@ -144,7 +141,11 @@ class VandU : Fragment() {
     private fun loadSavedPreferences() {
         val sharedPreferences = PreferenceManager
                 .getDefaultSharedPreferences(activity)
-        vb.text=sharedPreferences.getString("vb", "123")
+        try {
+            settext(infobackupVandU!!)
+        }
+        catch (e:KotlinNullPointerException){}
+
         Log.i(LOG_TAG,"load function called")
     }
     private fun savePreferences(key: String, value: String) {
@@ -156,7 +157,7 @@ class VandU : Fragment() {
     }
     fun saveData() {
         try {
-            savePreferences("vb", infobackup!!)
+            savePreferences("vb", infobackupVandU!!.vb.toString())
         }
         catch (e:KotlinNullPointerException){
 
@@ -230,7 +231,7 @@ class VandU : Fragment() {
 
                     activity?.runOnUiThread{
                         try {
-                            infobackup= vb.text.toString()
+                            //infobackup= vb.text.toString()
                             vb.text=userObject.vb.toString()
                             vc.text=userObject.vc.toString()
                             vab.text=userObject.vab.toString()

@@ -25,6 +25,7 @@ import java.net.Socket
 var output :DataOutputStream?=null
 val mHandler= Handler()
 
+
 var v_and_i=VandU()
 var pf_and_i=PfAndI()
 var ep_and_qq=EqandEp()
@@ -87,10 +88,7 @@ class Data : AppCompatActivity() {
         mHandler.removeCallbacks(mToastRunnable);
         super.onDestroy()
     }
-
-
-
-    private val mToastRunnable: Runnable = object : Runnable {
+   private val mToastRunnable: Runnable = object : Runnable {
         override fun run() {
             CoroutineScope(IO).launch {
                 val Json_from_the_board=dataexchange(Ip, port,"monitoring")
