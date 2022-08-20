@@ -34,7 +34,7 @@ class Device_Info : AppCompatActivity() {
         loading.startLoading()
         CoroutineScope(Dispatchers.IO).launch {
 
-            val ststs = dataexchange("192.168.160.1", 321, "deviceinfo")
+            val ststs = dataexchange(Ip, port, "deviceinfo")
             val gson = Gson()
             val userObject = gson.fromJson(ststs, Status_info::class.java)
 

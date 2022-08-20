@@ -79,13 +79,9 @@ class Data : AppCompatActivity() {
             override fun run() {
                 loading.isDismiss()
             }
-
-        },5000)
+       },100)
         mHandler.postDelayed(mToastRunnable, 1);
-
-
-
-    }
+   }
 
     override fun onDestroy() {
         mHandler.removeCallbacks(mToastRunnable);
@@ -97,7 +93,7 @@ class Data : AppCompatActivity() {
     private val mToastRunnable: Runnable = object : Runnable {
         override fun run() {
             CoroutineScope(IO).launch {
-                val Json_from_the_board=dataexchange("192.168.160.1", 321,"monitoring")
+                val Json_from_the_board=dataexchange(Ip, port,"monitoring")
                 val gson = Gson()
                 val monitoring_data = gson.fromJson(Json_from_the_board, info::class.java)
                 loading.isDismiss()

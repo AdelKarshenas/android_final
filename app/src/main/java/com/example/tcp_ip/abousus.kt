@@ -29,7 +29,7 @@ class abousus : AppCompatActivity() {
         getSupportActionBar()?.setTitle("")
         button.setOnClickListener(){
             CoroutineScope(Dispatchers.IO).launch{
-                var str=esockcreation("testtcp")
+                var str=esockcreation(Ip, port,"testtcp")
                 var i =3
                 runOnUiThread {
                     textView2.text= str.toString()
@@ -41,11 +41,15 @@ class abousus : AppCompatActivity() {
 
     }
 }
-
-
-public suspend fun esockcreation(input:String): String? {
+var clientSocket:Socket?=null
+var i=0
+public suspend fun esockcreation(ip:String,port:Int, input:String): String? {
     //val clientSocket = Socket("192.168.160.1", 321)
-    val clientSocket = Socket("192.168.157.59", 5000)
+    if (i==0){
+        clientSocket= Socket(ip, port)
+        i++
+    }
+
     val outToServer: PrintWriter = PrintWriter(OutputStreamWriter(clientSocket!!.getOutputStream()))
     var buffer:ByteArray?=null
     var output =""
